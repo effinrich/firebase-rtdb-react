@@ -5,7 +5,7 @@
  Delete this file and get started with your project!
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  */
-export function NxWelcome({ title }: { title: string }) {
+export function NxWelcome({ title }) {
   return (
     <>
       <style
@@ -424,7 +424,7 @@ export function NxWelcome({ title }: { title: string }) {
         gap: 4rem;
       }
     }
-          `,
+          `
         }}
       />
       <div className="wrapper">
@@ -718,14 +718,14 @@ export function NxWelcome({ title }: { title: string }) {
                     <span>Enable faster CI & better DX</span>
                   </h2>
                 </div>
-                <p>Your Nx Cloud remote cache setup is almost complete.</p>
-
+                <p>Your workspace is connected to Nx Cloud.</p>
                 <a
-                  href="https://cloud.nx.app/connect/hnI1BIiiXc"
+                  href="https://nx.dev/ci/intro/ci-with-nx#learn-about-nx-on-ci"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Click here to finish
+                  {' '}
+                  Learn about Nx on CI
                 </a>
               </div>
             </div>
@@ -846,7 +846,6 @@ export function NxWelcome({ title }: { title: string }) {
         </div>
       </div>
     </>
-  );
+  )
 }
-
-export default NxWelcome;
+export default NxWelcome

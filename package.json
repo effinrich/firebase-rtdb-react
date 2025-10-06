@@ -2,10 +2,18 @@
   "name": "@firebase-rtdb-react/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "nx": "nx",
+    "start": "nx serve portal",
+    "build": "nx build portal",
+    "test": "nx test portal",
+    "e2e": "nx e2e portal-e2e",
+    "lint": "nx lint portal"
+  },
   "private": true,
   "dependencies": {
-    "@emotion/react": "11.11.1",
+    "@chakra-ui/react": "^3.27.0",
+    "@emotion/react": "^11.11.1",
     "@emotion/styled": "11.11.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
@@ -51,6 +59,7 @@
     "typescript": "~5.9.2",
     "typescript-eslint": "^8.40.0",
     "vite": "^7.0.0",
+    "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^3.0.0"
   },
   "workspaces": [
