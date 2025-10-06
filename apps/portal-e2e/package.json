@@ -1,0 +1,10 @@
+{
+  "name": "@firebase-rtdb-react/portal-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@firebase-rtdb-react/portal"
+    ]
+  }
+}
